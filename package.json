@@ -1,0 +1,24 @@
+{
+  "name": "gridss",
+  "version": "1.0.0",
+  "description": "A CSS grid f̶r̶a̶m̶e̶w̶o̶r̶k̶.",
+  "main": "grid.min.css",
+  "files": [
+    "grid.min.css"
+  ],
+  "scripts": {
+    "build": "postcss grid.css -o grid.min.css -u postcss-css-variables postcss-custom-media postcss-clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briangonzalez/gridss.git"
+  },
+  "author": "Brian Gonzalex",
+  "license": "MIT",
+  "dependencies": {
+    "postcss-cli": "^4.1.1",
+    "postcss-css-variables": "^0.8.0",
+    "postcss-clean": "^1.1.0",
+    "postcss-custom-media": "^6.0.0"
+  }
+}
