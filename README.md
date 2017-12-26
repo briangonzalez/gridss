@@ -1,5 +1,7 @@
 <img src="https://user-images.githubusercontent.com/659829/34358025-e49c0b0e-ea00-11e7-990b-bc189723168d.png" alt="gridss logo" width="300">
 
+[![npm](https://img.shields.io/npm/v/gridss.svg?style=flat-square)](https://www.npmjs.com/package/gridss)
+
 ### Description
 
 gridss provides a 12-column grid applied using object oriented css. _[Demo](https://codepen.io/briangonzalez/pen/jYyOOw?editors=1100)_
