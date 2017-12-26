@@ -7,7 +7,8 @@
     "grid.min.css"
   ],
   "scripts": {
-    "build": "postcss grid.css -o grid.min.css -u postcss-css-variables postcss-custom-media postcss-clean"
+    "build": "postcss grid.css -o grid.min.css -u postcss-css-variables postcss-custom-media postcss-clean",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
