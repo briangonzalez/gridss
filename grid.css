@@ -10,7 +10,7 @@
 .gridss {
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(12, auto);
+  grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, auto);
 }
 
