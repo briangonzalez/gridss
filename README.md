@@ -2,7 +2,7 @@
 
 ### Description
 
-gridss provides a 12-column grid applied using object oriented css.
+gridss provides a 12-column grid applied using object oriented css. _[Demo](https://codepen.io/briangonzalez/pen/jYyOOw?editors=1100)_
 
 ### Installation & Usage
 
@@ -10,8 +10,8 @@ gridss provides a 12-column grid applied using object oriented css.
 npm install --save gridss
 ```
 
-```
-
+```html
+<link rel="stylesheet" href="https://unpkg.com/gridss/grid.min.css">
 ```
 
 ### Docs
