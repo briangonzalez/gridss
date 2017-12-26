@@ -6,7 +6,7 @@
 
 gridss provides a 12-column grid applied using object oriented css.
 
-**[Demo](https://codepen.io/briangonzalez/pen/jYyOOw?editors=1100)**
+**[Demo →](https://codepen.io/briangonzalez/pen/jYyOOw?editors=1100)**
 
 ### Installation & Usage
 
