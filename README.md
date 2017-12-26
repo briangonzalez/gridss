@@ -1,9 +1,5 @@
 <img src="https://user-images.githubusercontent.com/659829/34357955-51478c98-ea00-11e7-8579-1c74b79938a7.png" alt="gridss logo" width="300">
 
-## gridss
-
-> A CSS Grid f̶r̶a̶m̶e̶w̶o̶r̶k̶.
-
 ### Description
 
 gridss provides a 12-column grid applied using object oriented css.
