@@ -1,10 +1,10 @@
 /*! gridss: a css grid f̶r̶a̶m̶e̶w̶o̶r̶k̶ */
 
-@custom-media --gridss-xs (max-width: 400px);
-@custom-media --gridss-s  (max-width: 780px);
-@custom-media --gridss-m  (max-width: 1024px);
-@custom-media --gridss-l  (max-width: 1280px);
-@custom-media --gridss-xl (max-width: 1400px);
+@custom-media --gridss-xs (max-width: 480px);
+@custom-media --gridss-s  (max-width: 600px);
+@custom-media --gridss-m  (max-width: 840px);
+@custom-media --gridss-l  (max-width: 960px);
+@custom-media --gridss-xl (max-width: 1280px);
 
 /* Base */
 .gridss {

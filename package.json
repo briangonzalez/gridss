@@ -1,6 +1,6 @@
 {
   "name": "gridss",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CSS grid f̶r̶a̶m̶e̶w̶o̶r̶k̶.",
   "main": "grid.min.css",
   "files": [
