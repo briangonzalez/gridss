@@ -4,9 +4,19 @@
 
 gridss provides a 12-column grid applied using object oriented css.
 
+### Installation & Usage
+
+```
+npm install --save gridss
+```
+
+```
+
+```
+
 ### Docs
 
-The source code is quite explanatory, but here are the general class you should apply:
+The source code is quite explanatory, but here are the general class you can apply:
 
 ```
 .gridss
