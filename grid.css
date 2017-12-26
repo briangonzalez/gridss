@@ -1,4 +1,4 @@
-/*! gridss: a css grid f̶r̶a̶m̶e̶w̶o̶r̶k̶ */
+/*! gridss: a CSS Grid microlib */
 
 @custom-media --gridss-xs (max-width: 480px);
 @custom-media --gridss-s  (max-width: 600px);

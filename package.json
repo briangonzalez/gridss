@@ -1,6 +1,6 @@
 {
   "name": "gridss",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A CSS grid microlib.",
   "main": "grid.min.css",
   "files": [
