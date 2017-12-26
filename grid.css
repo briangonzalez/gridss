@@ -12,7 +12,6 @@
   grid-gap: 1rem;
   grid-template-columns: repeat(12, auto);
   grid-template-rows: repeat(12, auto);
-  row-gap: 1rem;
 }
 
 .col-1 { grid-column: span 1; }
