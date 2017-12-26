@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/659829/34357955-51478c98-ea00-11e7-8579-1c74b79938a7.png" alt="gridss logo" width="300">
+<img src="https://user-images.githubusercontent.com/659829/34358025-e49c0b0e-ea00-11e7-990b-bc189723168d.png" alt="gridss logo" width="300">
 
 ### Description
 
