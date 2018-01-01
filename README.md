@@ -20,7 +20,7 @@ npm install --save gridss
 
 ### Docs
 
-The source code is quite explanatory, but here are the general class you can apply:
+The source code is quite explanatory, but here are the general classes you can apply:
 
 ```
 .gridss
