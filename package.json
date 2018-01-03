@@ -1,13 +1,13 @@
 {
   "name": "gridss",
-  "version": "2.0.3",
+  "version": "3.0.0-beta.1",
   "description": "A CSS grid microlib.",
   "main": "grid.min.css",
   "files": [
     "grid.min.css"
   ],
   "scripts": {
-    "build": "postcss grid.css -o grid.min.css --no-map -u autoprefixer postcss-css-variables postcss-custom-media postcss-clean",
+    "build": "postcss grid.css -o grid.min.css --no-map -u autoprefixer postcss-mixins postcss-css-variables postcss-for postcss-custom-media postcss-clean",
     "prepublishOnly": "npm run build"
   },
   "repository": "briangonzalez/gridss",
@@ -15,9 +15,12 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^7.2.3",
+    "nodemon": "^1.14.7",
     "postcss-clean": "^1.1.0",
     "postcss-cli": "^4.1.1",
     "postcss-css-variables": "^0.8.0",
-    "postcss-custom-media": "^6.0.0"
+    "postcss-custom-media": "^6.0.0",
+    "postcss-for": "^2.1.1",
+    "postcss-mixins": "^6.2.0"
   }
 }
