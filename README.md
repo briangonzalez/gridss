@@ -22,8 +22,14 @@ npm install --save gridss
 
 The source code is quite explanatory, but here are the general classes you can apply:
 
+**Container**
+
 ```
 .gridss
+```
+
+**Span Columns**
+```
 .col-{1..12}
 .col-xs-{1...12}
 .col-s-{1...12}
@@ -32,17 +38,34 @@ The source code is quite explanatory, but here are the general classes you can a
 .col-xl-{1...12}
 ```
 
+**Start-End Columns**
+
+```
+.col-xs-{1...12}-{1-12}
+.col-s-{1...12}-{1-12}
+.col-m-{1...12}-{1-12}
+.col-l-{1...12}-{1-12}
+.col-xl-{1...12}-{1-12}
+```
+
 For example:
 
 ```html
 <div class="gridss">
   <div class="col-xs-12 col-s-10 col-m-8 col-l-6 col-xl-4 col-1">
-    12 columns under 400px
-    10 columns under 780px
-    8 columns under 1024px
-    6 columns under 1280px
-    4 columns under 1400px
-    1 column
+    12 columns s
+    10 columns xs
+    8 columns m
+    6 columns l
+    4 columns l
+    1 column xl
+  </div>
+</div>
+```
+
+```html
+<div class="gridss">
+  <div class="col-12 col-l-3-9 col-s-1-11">
   </div>
 </div>
 ```
