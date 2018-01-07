@@ -4,7 +4,7 @@
 
 ### Description
 
-gridss provides a mobile-first 12-column grid applied using object oriented css.
+gridss provides a mobile-first 12-column grid applied using object oriented css. It weights in at **~2kb**.
 
 **[Demo →](https://codepen.io/briangonzalez/pen/jYyOOw?editors=1100)**
 
