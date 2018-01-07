@@ -7,7 +7,7 @@
     "grid.min.css"
   ],
   "scripts": {
-    "build": "postcss grid.css -o grid.min.css --no-map -u autoprefixer postcss-mixins postcss-media-minmax postcss-css-variables postcss-for postcss-custom-media postcss-clean",
+    "build": "postcss grid.css -o grid.min.css --no-map -u autoprefixer postcss-mixins postcss-media-minmax postcss-css-variables postcss-for postcss-conditionals postcss-clean",
     "prepublishOnly": "npm run build"
   },
   "repository": "briangonzalez/gridss",
@@ -18,6 +18,7 @@
     "nodemon": "^1.14.7",
     "postcss-clean": "^1.1.0",
     "postcss-cli": "^4.1.1",
+    "postcss-conditionals": "^2.1.0",
     "postcss-css-variables": "^0.8.0",
     "postcss-custom-media": "^6.0.0",
     "postcss-for": "^2.1.1",
