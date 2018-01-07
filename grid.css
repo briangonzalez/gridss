@@ -6,57 +6,38 @@
   grid-template-columns: repeat(12, 1fr);
 }
 
-.with-gap {
-  margin-bottom: 1rem;
-}
+.with-gap { margin-bottom: 1rem; }
+.subgrid { display: subgrid; }
 
-.subgrid {
-  display: subgrid;
-}
+.align-i-stretch { align-items: start; }
+.align-i-end { align-items: end; }
+.align-i-start { align-items: start; }
+.align-i-center { align-items: center; }
 
-.align-i-stretch {
-  align-items: start;
-}
-
-.align-i-end {
-  align-items: end;
-}
-
-.align-i-start {
-  align-items: start;
-}
-
-.align-i-center {
-  align-items: center;
-}
-
-.justify-i-stretch {
-  justify-items: start;
-}
-
-.justify-i-end {
-  justify-items: end;
-}
-
-.justify-i-start {
-  justify-items: start;
-}
-
-.justify-i-center {
-  justify-items: center;
-}
+.justify-i-stretch { justify-items: start; }
+.justify-i-end { justify-items: end; }
+.justify-i-start { justify-items: start; }
+.justify-i-center { justify-items: center; }
 
 [class*='col-'] {
   width: 100%;
   display: grid;
 }
 
+/*
+    Columns with a span
+    eg .col-3
+*/
 @for $i from 1 to 12 {
   .col-$(i) {
     grid-column: span $(i);
   }
 }
 
+/*
+    Columns with start and end
+    eg .col-3-8
+*/
 @for $i from 1 to 13 {
   @for $j from 1 to 13 {
     .col-$(i)-$(j) {
@@ -66,7 +47,11 @@
   }
 }
 
-@define-mixin define-columns $media, $size, $name {
+/*
+    Columns with start and end and a size
+    eg .col-l-3-8
+*/
+@define-mixin columns $media, $size, $name {
   @media ($media) {
     @for $i from 1 to 13 {
 
@@ -89,15 +74,7 @@
   }
 }
 
-@mixin define-columns max-width: 1280px, xl {}
-@mixin define-columns max-width: 960px, l {}
-@mixin define-columns max-width: 840px, m {}
-@mixin define-columns max-width: 600px, s {}
-@mixin define-columns max-width: 480px, xs {}
-
-/* Column End */
-@for $i from 1 to 13 {
-  .col-end-$i {
-    grid-column-end: $i;
-  }
-}
+@mixin columns width >= 600px, s {}
+@mixin columns width >= 840px, m {}
+@mixin columns width >= 960px, l {}
+@mixin columns width >= 1280px, xl {}

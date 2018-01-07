@@ -4,9 +4,13 @@
     <link rel="stylesheet" href="../grid.min.css">
     <style>
       [class*='col-'] {
-        background: cornflowerblue;
-        min-height: 100px;
+        min-height: 20px;
       }
+
+      .cornflower > div { background: cornflowerblue; }
+      .chocolate > div { background: chocolate; }
+      .darkseagreen > div { background: darkseagreen; }
+      .tomato > div { background: tomato; }
 
       * {
         box-sizing: border-box;
@@ -27,72 +31,78 @@
   </head>
 
   <body>
-    <div class='gridss with-gap'>
-      <div class='col-1 col-s-12'></div>
-      <div class='col-1'></div>
-      <div class='col-1'></div>
-      <div class='col-1'></div>
-      <div class='col-1'></div>
-      <div class='col-1'></div>
-      <div class='col-1'></div>
-      <div class='col-1'></div>
-      <div class='col-1'></div>
-      <div class='col-1'></div>
-      <div class='col-1'></div>
-      <div class='col-1'></div>
+    <div class='gridss with-gap cornflower'>
+      <div class='col-12 col-s-4 col-m-3 col-l-2 col-xl-1'></div>
+      <div class='col-12 col-s-4 col-m-3 col-l-2 col-xl-1'></div>
+      <div class='col-12 col-s-4 col-m-3 col-l-2 col-xl-1'></div>
+      <div class='col-12 col-s-4 col-m-3 col-l-2 col-xl-1'></div>
+      <div class='col-12 col-s-4 col-m-3 col-l-2 col-xl-1'></div>
+      <div class='col-12 col-s-4 col-m-3 col-l-2 col-xl-1'></div>
+      <div class='col-12 col-s-4 col-m-3 col-l-2 col-xl-1'></div>
+      <div class='col-12 col-s-4 col-m-3 col-l-2 col-xl-1'></div>
+      <div class='col-12 col-s-4 col-m-3 col-l-2 col-xl-1'></div>
+      <div class='col-12 col-s-4 col-m-3 col-l-2 col-xl-1'></div>
+      <div class='col-12 col-s-4 col-m-3 col-l-2 col-xl-1'></div>
+      <div class='col-12 col-s-4 col-m-3 col-l-2 col-xl-1'></div>
+    </div>
 
-      <div class='col-2'></div>
-      <div class='col-2'></div>
-      <div class='col-2'></div>
-      <div class='col-2'></div>
-      <div class='col-2'></div>
-      <div class='col-2'></div>
+    <div class='gridss with-gap chocolate'>
+      <div class='col-2 col-l-1'></div>
+      <div class='col-2 col-l-2'></div>
+      <div class='col-2 col-l-3'></div>
+      <div class='col-2 col-l-3'></div>
+      <div class='col-2 col-l-2'></div>
+      <div class='col-2 col-l-1'></div>
+    </div>
 
+    <div class='gridss with-gap darkseagreen'>
       <div class='col-3'></div>
       <div class='col-3'></div>
       <div class='col-3'></div>
       <div class='col-3'></div>
+    </div>
 
+    <div class='gridss with-gap tomato'>
       <div class='col-4'></div>
       <div class='col-4'></div>
       <div class='col-4'></div>
+    </div>
 
+    <div class='gridss with-gap cornflower'>
       <div class='col-2'></div>
       <div class='col-3'></div>
       <div class='col-3'></div>
       <div class='col-2'></div>
       <div class='col-2'></div>
+    </div>
 
+    <div class='gridss with-gap chocolate'>
       <div class='col-12'></div>
     </div>
 
-    <div class='gridss with-gap outlined'>
-      <div class='col-xs-12 col-1-2'></div>
+    <div class='gridss with-gap outlined darkseagreen'>
+      <div class='col-11'></div>
       <div class='col-12-13'></div>
     </div>
 
-    <div class='gridss with-gap outlined'>
-      <div class='col-2-3'></div>
-      <div class='col-11-12'></div>
+    <div class='gridss with-gap outlined darkseagreen'>
+      <div class='col-10'></div>
+      <div class='col-12-13'></div>
     </div>
 
-    <div class='gridss with-gap outlined'>
-      <div class='col-3-4'></div>
-      <div class='col-10-11'></div>
+    <div class='gridss with-gap outlined darkseagreen'>
+      <div class='col-9'></div>
+      <div class='col-12-13'></div>
     </div>
 
-    <div class='gridss with-gap outlined'>
-      <div class='col-4-5'></div>
-      <div class='col-9-10'></div>
+    <div class='gridss with-gap outlined darkseagreen'>
+      <div class='col-8'></div>
+      <div class='col-12-13'></div>
     </div>
 
-    <div class='gridss with-gap outlined'>
-      <div class='col-5-6'></div>
-      <div class='col-8-9'></div>
-    </div>
-
-    <div class='gridss with-gap outlined'>
-      <div class='col-6-8'></div>
+    <div class='gridss with-gap outlined darkseagreen'>
+      <div class='col-7'></div>
+      <div class='col-12-13'></div>
     </div>
   </body>
 </html>

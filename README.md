@@ -4,9 +4,10 @@
 
 ### Description
 
-gridss provides a 12-column grid applied using object oriented css.
+gridss provides a mobile-first 12-column grid applied using object oriented css.
 
 **[Demo →](https://codepen.io/briangonzalez/pen/jYyOOw?editors=1100)**
+
 
 ### Installation & Usage
 
@@ -31,7 +32,6 @@ The source code is quite explanatory, but here are the general classes you can a
 **Span Columns**
 ```
 .col-{1..12}
-.col-xs-{1...12}
 .col-s-{1...12}
 .col-m-{1...12}
 .col-l-{1...12}
@@ -41,7 +41,6 @@ The source code is quite explanatory, but here are the general classes you can a
 **Start-End Columns**
 
 ```
-.col-xs-{1...12}-{1-12}
 .col-s-{1...12}-{1-12}
 .col-m-{1...12}-{1-12}
 .col-l-{1...12}-{1-12}
@@ -52,23 +51,29 @@ For example:
 
 ```html
 <div class="gridss">
-  <div class="col-xs-12 col-s-10 col-m-8 col-l-6 col-xl-4 col-1">
-    12 columns s
-    10 columns xs
-    8 columns m
-    6 columns l
-    4 columns l
-    1 column xl
+  <div class="col-12 col-s-10 col-m-8 col-l-6 col-xl-4">
+    12 columns mobile
+    10 columns x-small and above
+    8 columns medium and above
+    6 columns large and above
+    4 columns x-large and above
   </div>
 </div>
 ```
 
 ```html
 <div class="gridss">
-  <div class="col-12 col-l-3-9 col-s-1-11">
-  </div>
+  <div class="col-1-8"></div>
+  <div class="col-8-13"></div>
 </div>
 ```
+
+### What do you mean by mobile first?
+
+It means that the sized-based grid classes function on _that size and larger._
+
+**mobile first (like gridss)**: `col-l-6` applied to widths at or above "large"
+**not mobile first**: `col-l-6` applied to width at or below "large"
 
 ## License
 
