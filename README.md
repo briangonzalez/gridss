@@ -72,8 +72,9 @@ For example:
 
 It means that the sized-based grid classes function on _that size and larger._
 
-**mobile first (like gridss)**: `col-l-6` applied to widths at or above "large"
-**not mobile first**: `col-l-6` applied to width at or below "large"
+**mobile first grid (like gridss)**: `col-l-6` applied to widths at or above "large"
+
+**non-mobile first grid**: `col-l-6` applied to width at or below "large"
 
 ## License
 
